@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header2">
+        <div class="logomini">
+            <img src="img/logomini.svg" alt="google">
+        </div>
+
+        <div class="search">
+            <a href="index.html">Google Search</a>
+        </div>
+    </div>
+
+    <div>
+        <div class="nd">
+            <label>Розширений пошук</label>
+        </div>
+        <div class="ln"></div>
+    </div>
+
+    <div class="zp">
+        <div class="nam">
+            <span>Знайти сторінки з</span>
+        </div>
+        <form action="https://google.com/search">
+            <div class="all">
+                <div class="wor">
+                    усіма цими словами:
+                </div>
+                <div class="in">
+                    <input class="searchstr2" type="text" name="as_q" autofocus>
+                </div>
+            </div>
+            <div class="one">
+                <div class="wor">
+                    саме цим словом або фразою:
+                </div>
+                <div class="in">
+                    <input class="searchstr2" type="text" name="as_epq">
+                </div>
+            </div>
+            <div class="any">
+                <div class="wor">
+                    будь-яким із цих слів:
+                </div>
+                <div class="in">
+                    <input class="searchstr2" type="text" name="as_oq">
+                </div>
+            </div>
+            <div class="no">
+                <div class="wor">
+                    жодне з цих слів:
+                </div>
+                <div class="in">
+                    <input class="searchstr2" type="text" name="as_eq">
+                </div>
+            </div>
+
+            <div class="but">
+                <input id="CIGjud" name="tbs" type="hidden" value="">
+                <input class="buttonsearch" value="Розширений пошук" type="submit">
+            </div>
+        </form>
+    </div>
+</body>
